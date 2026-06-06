@@ -1,6 +1,6 @@
 # RideFinder
 
-> Every ride around you, cheapest first.
+> **Every ride around you, cheapest first.**
 
 RideFinder compares ride options near you in one place — estimated fares for ride apps (Uber, Lyft, Curb) alongside a distance-sorted directory of verified local taxi companies you can call with one tap — all based on your current location.
 
@@ -18,12 +18,12 @@ People overpay and waste time because ride options are scattered across separate
 
 ## Features
 
-- Location detection via browser geolocation (or type a pickup address)
-- Ride-app fare estimates for Uber, Lyft, and Curb
-- Deep links that open the chosen app with your trip pre-filled (so you see the real live price)
-- Live nearby taxi stands pulled from OpenStreetMap, sorted by distance
-- Curated, verified Michigan taxi directory with real phone numbers and one-tap calling
-- Sort by Price or Distance
+- 📍 **Location detection** via browser geolocation (or type a pickup address)
+- 🚕 **Ride-app fare estimates** for Uber, Lyft, and Curb
+- 🔗 **Deep links** that open the chosen app with your trip pre-filled (so you see the real live price)
+- 🗺️ **Live nearby taxi stands** pulled from OpenStreetMap, sorted by distance
+- ⭐ **Curated, verified Michigan taxi directory** with real phone numbers and one-tap calling
+- ↕️ **Sort by Price or Distance**
 
 ## Tech stack
 
@@ -43,7 +43,7 @@ There is no public, free feed for live availability and guaranteed prices across
 
 ## Source
 
-The app is a single React route. See `src/Rides.tsx`.
+The app is a single React route. See [`src/Rides.tsx`](src/Rides.tsx).
 
 ---
 
